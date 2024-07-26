@@ -3,6 +3,10 @@ body{
     height: 100vh;
 }
 
+.card{
+  width: 28rem;
+}
+
 .element-wrapper span{
    position: fixed;
    bottom: -180px;
@@ -162,4 +166,10 @@ body{
         transform: translateY(-800px) rotate(360deg);
         opacity: 0;
     }
+}
+
+@media screen and (max-width: 600px){
+  .card{
+    width:20rem;;
+  }
 }
